@@ -1,5 +1,5 @@
 {
-  "name": "@dojot/dojot-module",
+  "name": "@andrewjsc/dojot-module",
   "version": "0.0.1-alpha.6",
   "description": "A library that provides utilities and methods for dojot",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dojot/dojot-module-nodejs.git"
+    "url": "git+https://github.com/andrewjschuang/dojot-module-nodejs.git"
   },
   "keywords": [
     "dojot",
@@ -17,9 +17,9 @@
   ],
   "author": "Muhamed Avila",
   "bugs": {
-    "url": "https://github.com/dojot/dojot-module-nodejs/issues"
+    "url": "https://github.com/andrewjschuang/dojot-module-nodejs/issues"
   },
-  "homepage": "https://github.com/dojot/dojot-module-nodejs/#readme",
+  "homepage": "https://github.com/andrewjschuang/dojot-module-nodejs/#readme",
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.18.0",

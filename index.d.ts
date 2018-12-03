@@ -1,12 +1,12 @@
-declare module '@dojot/dojot-module' {
+declare module '@andrewjsc/dojot-module' {
     class Messenger {
         public constructor(name: string, config?: any);
+        public getTenants(): string[];
         public emit(subject: string, tenant: string, event: string, data: any): void;
         public on(subject: string, event: string, callback: (tenant: string, data: any) => void): void;
         public createChannel(subject: string, mode?: "r" | "w" | "rw", isGlobal?: boolean): void;
         public publish(subject: string, tenant:string, message:any): void;
         public init(): Promise<void>;
-        public generateDeviceCreateEventForActiveDevices(): void;
     }
 
     class Auth {
